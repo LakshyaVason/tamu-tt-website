@@ -21,6 +21,7 @@ export default function CallToAction() {
               src="/images/avatars/avatar.webp"
               alt="member photo"
               className="h-8 w-8 rounded-full object-cover"
+			  unoptimized={true}
             />
             <Image
               loading="lazy"
@@ -29,6 +30,7 @@ export default function CallToAction() {
               src="/images/avatars/avatar-2.webp"
               alt="member photo"
               className="h-12 w-12 rounded-full object-cover"
+			  unoptimized={true}
             />
             <Image
               loading="lazy"
@@ -37,6 +39,7 @@ export default function CallToAction() {
               src="/images/avatars/avatar-3.webp"
               alt="member photo"
               className="z-10 h-16 w-16 rounded-full object-cover"
+			  unoptimized={true}
             />
             <Image
               loading="lazy"
@@ -45,6 +48,7 @@ export default function CallToAction() {
               src="/images/avatars/avatar-4.webp"
               alt="member photo"
               className="relative h-12 w-12 rounded-full object-cover"
+			  unoptimized={true}
             />
             <Image
               loading="lazy"
@@ -53,6 +57,7 @@ export default function CallToAction() {
               src="/images/avatars/avatar-1.webp"
               alt="member photo"
               className="h-8 w-8 rounded-full object-cover"
+			  unoptimized={true}
             />
           </div>
           <div className="m-auto mt-6 space-y-6 md:w-8/12 lg:w-7/12">

@@ -8,7 +8,7 @@ export default function HeroSection() {
         aria-hidden="true"
         className="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20"
       >
-        <div className="from-primary h-56 bg-gradient-to-br to-purple-400 blur-[106px] dark:from-blue-700"></div>
+        <div className="h-56 bg-gradient-to-br from-primary to-purple-400 blur-[106px] dark:from-blue-700"></div>
         <div className="h-32 bg-gradient-to-r from-cyan-400 to-sky-300 blur-[106px] dark:to-indigo-600"></div>
       </div>
       <Container>
@@ -29,7 +29,7 @@ export default function HeroSection() {
             <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
               <a
                 href="#"
-                className="before:bg-primary relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
               >
                 <span className="relative text-base font-semibold text-white">
                   Get started
@@ -37,9 +37,9 @@ export default function HeroSection() {
               </a>
               <a
                 href="#"
-                className="before:bg-primary/10 relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
+                className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
               >
-                <span className="text-primary relative text-base font-semibold dark:text-white">
+                <span className="relative text-base font-semibold text-primary dark:text-white">
                   Learn more
                 </span>
               </a>
@@ -68,62 +68,68 @@ export default function HeroSection() {
           <div className="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
             <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
               <Image
+                unoptimized={true}
                 src="/images/clients/microsoft.svg"
                 className="mx-auto h-12 w-auto"
                 loading="lazy"
                 alt="client logo"
-				width={0}
-				height={0}
+                width={0}
+                height={0}
               />
             </div>
             <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
               <Image
+                unoptimized={true}
                 src="/images/clients/airbnb.svg"
                 className="mx-auto h-12 w-auto"
                 loading="lazy"
                 alt="client logo"
-				width={0}
-				height={0}
+                width={0}
+                height={0}
               />
             </div>
             <div className="flex p-4 grayscale transition duration-200 hover:grayscale-0">
               <Image
+                unoptimized={true}
                 src="/images/clients/google.svg"
                 className="m-auto h-9 w-auto"
                 loading="lazy"
                 alt="client logo"
-				width={0}
-				height={0}
+                width={0}
+                height={0}
               />
             </div>
             <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
               <Image
+                unoptimized={true}
                 src="/images/clients/ge.svg"
                 className="mx-auto h-12 w-auto"
                 loading="lazy"
                 alt="client logo"
-				width={0}
-				height={0}
+                width={0}
+                height={0}
               />
             </div>
             <div className="flex p-4 grayscale transition duration-200 hover:grayscale-0">
               <Image
+                unoptimized={true}
                 src="/images/clients/netflix.svg"
                 className="m-auto h-8 w-auto"
                 loading="lazy"
                 alt="client logo"
-				width={0}
-				height={0}
+                width={0}
+                height={0}
               />
             </div>
             <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
               <Image
+                unoptimized={true}
                 src="/images/clients/google-cloud.svg"
                 className="mx-auto h-12 w-auto"
                 loading="lazy"
                 alt="client logo"
-				width={0}
-				height={0}
+                width={0}
+                height={0}
               />
             </div>
           </div>

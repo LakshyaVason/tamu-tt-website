@@ -9,33 +9,33 @@ export default function Footer() {
             <div className="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start">
               <ul className="list-inside list-disc space-y-8">
                 <li>
-                  <a href="#" className="hover:text-primary transition">
+                  <a href="#" className="transition hover:text-primary">
                     Home
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" className="hover:text-primary transition">
+                  <a href="#" className="transition hover:text-primary">
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition">
+                  <a href="#" className="transition hover:text-primary">
                     Guide
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition">
+                  <a href="#" className="transition hover:text-primary">
                     Blocks
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition">
+                  <a href="#" className="transition hover:text-primary">
                     Contact
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary transition">
+                  <a href="#" className="transition hover:text-primary">
                     Terms of Use
                   </a>
                 </li>
@@ -45,7 +45,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-primary flex items-center space-x-3 transition"
+                    className="flex items-center space-x-3 transition hover:text-primary"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-primary flex items-center space-x-3 transition"
+                    className="flex items-center space-x-3 transition hover:text-primary"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-primary flex items-center space-x-3 transition"
+                    className="flex items-center space-x-3 transition hover:text-primary"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-primary flex items-center space-x-3 transition"
+                    className="flex items-center space-x-3 transition hover:text-primary"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +110,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-primary flex items-center space-x-3 transition"
+                    className="flex items-center space-x-3 transition hover:text-primary"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-primary flex items-center space-x-3 transition"
+                    className="flex items-center space-x-3 transition hover:text-primary"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -144,7 +144,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-primary flex items-center space-x-3 transition"
+                    className="flex items-center space-x-3 transition hover:text-primary"
                   >
                     <Image
                       className="h-5 w-5"
@@ -152,6 +152,7 @@ export default function Footer() {
                       height="32"
                       src="https://c5.patreon.com/external/favicon/favicon.ico?v=69kMELnXkB"
                       alt="patreon icon"
+                      unoptimized={true}
                     />
                     <span>Patreon</span>
                   </a>
@@ -159,7 +160,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-primary flex items-center space-x-3 transition"
+                    className="flex items-center space-x-3 transition hover:text-primary"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

@@ -24,6 +24,7 @@ export default function Blog() {
                 width="1000"
                 height="667"
                 className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
+				unoptimized={true}
               />
             </div>
             <div className="relative mt-6">
@@ -48,6 +49,7 @@ export default function Blog() {
                 width="1000"
                 height="667"
                 className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
+				unoptimized={true}
               />
             </div>
             <div className="relative mt-6">
@@ -72,6 +74,7 @@ export default function Blog() {
                 width="1000"
                 height="667"
                 className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
+				unoptimized={true}
               />
             </div>
             <div className="relative mt-6">
