@@ -13,5 +13,25 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn-icons-png.flaticon.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "c5.patreon.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn-icons-png.flaticon.com",
+      },
+    ],
+  },
 };
 export default config;
