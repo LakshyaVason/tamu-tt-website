@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Container from "./Container";
 
 export default function Testimonials() {
@@ -13,8 +12,7 @@ export default function Testimonials() {
         <div className="gap-8 space-y-8 md:columns-2 lg:columns-3">
           <div className="aspect-auto rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
             <div className="flex gap-4">
-              <Image
-                unoptimized={true}
+              <img
                 className="h-12 w-12 rounded-full"
                 src="/images/avatars/avatar.webp"
                 alt="user avatar"
@@ -43,8 +41,7 @@ export default function Testimonials() {
           </div>
           <div className="aspect-auto rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
             <div className="flex gap-4">
-              <Image
-                unoptimized={true}
+              <img
                 className="h-12 w-12 rounded-full"
                 src="/images/avatars/avatar-1.webp"
                 alt="user avatar"
@@ -70,8 +67,7 @@ export default function Testimonials() {
           </div>
           <div className="aspect-auto rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
             <div className="flex gap-4">
-              <Image
-                unoptimized={true}
+              <img
                 className="h-12 w-12 rounded-full"
                 src="/images/avatars/avatar-2.webp"
                 alt="user avatar"
@@ -97,8 +93,7 @@ export default function Testimonials() {
           </div>
           <div className="aspect-auto rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
             <div className="flex gap-4">
-              <Image
-                unoptimized={true}
+              <img
                 className="h-12 w-12 rounded-full"
                 src="/images/avatars/avatar-3.webp"
                 alt="user avatar"
@@ -124,8 +119,7 @@ export default function Testimonials() {
           </div>
           <div className="aspect-auto rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
             <div className="flex gap-4">
-              <Image
-                unoptimized={true}
+              <img
                 className="h-12 w-12 rounded-full"
                 src="/images/avatars/avatar-4.webp"
                 alt="user avatar"
@@ -152,8 +146,7 @@ export default function Testimonials() {
           </div>
           <div className="aspect-auto rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
             <div className="flex gap-4">
-              <Image
-                unoptimized={true}
+              <img
                 className="h-12 w-12 rounded-full"
                 src="/images/avatars/avatar-2.webp"
                 alt="user avatar"

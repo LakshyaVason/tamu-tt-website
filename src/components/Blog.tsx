@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Container from "./Container";
 
 export default function Blog() {
@@ -17,14 +16,13 @@ export default function Blog() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="group rounded-3xl border border-gray-100 bg-white bg-opacity-50 p-6 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:p-8">
             <div className="relative overflow-hidden rounded-xl">
-              <Image
+              <img
                 src="https://images.unsplash.com/photo-1661749711934-492cd19a25c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
                 alt="art cover"
                 loading="lazy"
                 width="1000"
                 height="667"
                 className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
-				unoptimized={true}
               />
             </div>
             <div className="relative mt-6">
@@ -42,14 +40,13 @@ export default function Blog() {
           </div>
           <div className="group rounded-3xl border border-gray-100 bg-white bg-opacity-50 p-6 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:p-8">
             <div className="relative overflow-hidden rounded-xl">
-              <Image
+              <img
                 src="https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
                 alt="art cover"
                 loading="lazy"
                 width="1000"
                 height="667"
                 className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
-				unoptimized={true}
               />
             </div>
             <div className="relative mt-6">
@@ -67,14 +64,13 @@ export default function Blog() {
           </div>
           <div className="group rounded-3xl border border-gray-100 bg-white bg-opacity-50 p-6 shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none sm:p-8">
             <div className="relative overflow-hidden rounded-xl">
-              <Image
+              <img
                 src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
                 alt="art cover"
                 loading="lazy"
                 width="1000"
                 height="667"
                 className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
-				unoptimized={true}
               />
             </div>
             <div className="relative mt-6">

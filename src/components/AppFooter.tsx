@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Footer() {
   return (
     <footer className="py-20 md:py-40">
@@ -146,13 +144,12 @@ export default function Footer() {
                     href="#"
                     className="flex items-center space-x-3 transition hover:text-primary"
                   >
-                    <Image
+                    <img
                       className="h-5 w-5"
                       width="32"
                       height="32"
                       src="https://c5.patreon.com/external/favicon/favicon.ico?v=69kMELnXkB"
                       alt="patreon icon"
-                      unoptimized={true}
                     />
                     <span>Patreon</span>
                   </a>

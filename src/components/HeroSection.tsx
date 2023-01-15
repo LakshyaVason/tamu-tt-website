@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Container from "./Container";
 
 export default function HeroSection() {
@@ -67,8 +66,7 @@ export default function HeroSection() {
           </div>
           <div className="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
             <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
-              <Image
-                unoptimized={true}
+              <img
                 src="/images/clients/microsoft.svg"
                 className="mx-auto h-12 w-auto"
                 loading="lazy"
@@ -78,8 +76,7 @@ export default function HeroSection() {
               />
             </div>
             <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
-              <Image
-                unoptimized={true}
+              <img
                 src="/images/clients/airbnb.svg"
                 className="mx-auto h-12 w-auto"
                 loading="lazy"
@@ -89,8 +86,7 @@ export default function HeroSection() {
               />
             </div>
             <div className="flex p-4 grayscale transition duration-200 hover:grayscale-0">
-              <Image
-                unoptimized={true}
+              <img
                 src="/images/clients/google.svg"
                 className="m-auto h-9 w-auto"
                 loading="lazy"
@@ -100,8 +96,7 @@ export default function HeroSection() {
               />
             </div>
             <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
-              <Image
-                unoptimized={true}
+              <img
                 src="/images/clients/ge.svg"
                 className="mx-auto h-12 w-auto"
                 loading="lazy"
@@ -111,8 +106,7 @@ export default function HeroSection() {
               />
             </div>
             <div className="flex p-4 grayscale transition duration-200 hover:grayscale-0">
-              <Image
-                unoptimized={true}
+              <img
                 src="/images/clients/netflix.svg"
                 className="m-auto h-8 w-auto"
                 loading="lazy"
@@ -122,8 +116,7 @@ export default function HeroSection() {
               />
             </div>
             <div className="p-4 grayscale transition duration-200 hover:grayscale-0">
-              <Image
-                unoptimized={true}
+              <img
                 src="/images/clients/google-cloud.svg"
                 className="mx-auto h-12 w-auto"
                 loading="lazy"
