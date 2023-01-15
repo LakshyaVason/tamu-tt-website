@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "./Container";
 
 export default function CallToAction() {
@@ -13,43 +14,43 @@ export default function CallToAction() {
       <Container>
         <div className="relative">
           <div className="flex items-center justify-center -space-x-2">
-            <img
+            <Image
               loading="lazy"
               width="400"
               height="400"
-              src="./images/avatars/avatar.webp"
+              src="/images/avatars/avatar.webp"
               alt="member photo"
               className="h-8 w-8 rounded-full object-cover"
             />
-            <img
+            <Image
               loading="lazy"
               width="200"
               height="200"
-              src="./images/avatars/avatar-2.webp"
+              src="/images/avatars/avatar-2.webp"
               alt="member photo"
               className="h-12 w-12 rounded-full object-cover"
             />
-            <img
+            <Image
               loading="lazy"
               width="200"
               height="200"
-              src="./images/avatars/avatar-3.webp"
+              src="/images/avatars/avatar-3.webp"
               alt="member photo"
               className="z-10 h-16 w-16 rounded-full object-cover"
             />
-            <img
+            <Image
               loading="lazy"
               width="200"
               height="200"
-              src="./images/avatars/avatar-4.webp"
+              src="/images/avatars/avatar-4.webp"
               alt="member photo"
               className="relative h-12 w-12 rounded-full object-cover"
             />
-            <img
+            <Image
               loading="lazy"
               width="200"
               height="200"
-              src="./images/avatars/avatar-1.webp"
+              src="/images/avatars/avatar-1.webp"
               alt="member photo"
               className="h-8 w-8 rounded-full object-cover"
             />
