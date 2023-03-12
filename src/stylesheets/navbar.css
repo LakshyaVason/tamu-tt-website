@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-link {
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+}
+
+.navbar-brand {
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    padding: none;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
