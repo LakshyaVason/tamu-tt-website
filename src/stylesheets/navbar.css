@@ -20,16 +20,30 @@
 }
 
 .navbar-brand {
-    width: 50px;
-    height: 50px;
     text-decoration: none;
-    text-align: center;
     padding: 16px;
+    width: fit-content;
+    align-content: center;
+    height: 50px;
+    align-items: center;
 }
 
 .logo {
     width: 50px;
     height: 50px;
+    float: left;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    white-space: nowrap;
+    margin: auto;
+    align-self: center;
+    color: black;
+    vertical-align: center;
+    font-size: 42px;
+    
 }
 
 .apply {
