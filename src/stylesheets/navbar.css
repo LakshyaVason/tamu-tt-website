@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+    justify-content: space-between;
 }
 
 .nav-list {
@@ -23,7 +24,7 @@
     height: 50px;
     text-decoration: none;
     text-align: center;
-    padding: none;
+    padding: 16px;
 }
 
 .logo {
