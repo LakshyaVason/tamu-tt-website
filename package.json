@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tamu-tt/website/issues"
   },
-  "homepage": "https://github.com/tamu-tt/website#readme"
+  "homepage": "https://github.com/tamu-tt/website#readme",
+  "dependencies": {
+    "node": "^19.8.1"
+  }
 }
