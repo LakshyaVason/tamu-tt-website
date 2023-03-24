@@ -26,6 +26,8 @@
     align-content: center;
     height: 50px;
     align-items: center;
+    background-color: rgb(177, 198, 216);
+    border-radius: 20px;
 }
 
 .logo {
@@ -41,8 +43,9 @@
     margin: auto;
     align-self: center;
     color: black;
-    vertical-align: center;
     font-size: 42px;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight: bold;
     
 }
 
