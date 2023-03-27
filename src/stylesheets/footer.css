@@ -1,0 +1,18 @@
+footer {
+    background-color: #fff; /* updated background color to white */
+    color: #222; /* updated text color to dark gray */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #1DA1F2; /* updated icon color to blue */
+    font-size: 24px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .social-media a:hover {
+    color: #0b5ed7; /* updated hover color to a darker blue */
+  }
