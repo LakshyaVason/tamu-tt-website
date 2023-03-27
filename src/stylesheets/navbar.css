@@ -53,6 +53,7 @@
 .apply {
     background-color: lightblue;
     border-radius: 30px;
+    transition: color 0.2s ease-in-out;
 }
 
 .apply:hover {
