@@ -7,15 +7,27 @@ const cardsPerPage = 3;
 const cardMargin = 10;
 
 nextBtn.addEventListener('click', () => {
-  if (counter < (carousel.children.length / cardsPerPage) - 1) {
-    counter++;
+  if (counter >= carousel.children.length - cardsPerPage) {
+    carousel.style.transition = "none";
+    counter = 3;
     carousel.style.transform = `translateX(${-1 * (cardWidth * cardsPerPage + cardMargin * (cardsPerPage - 1)) * counter}px)`;
   }
+  setTimeout(() => {
+    carousel.style.transition = "transform 0.4s ease-in-out";
+    counter++;
+    carousel.style.transform = `translateX(${-1 * (cardWidth * cardsPerPage + cardMargin * (cardsPerPage - 1)) * counter}px)`;
+  }, 0);
 });
 
 prevBtn.addEventListener('click', () => {
-  if (counter > 0) {
-    counter--;
+  if (counter <= 0) {
+    carousel.style.transition = "none";
+    counter = carousel.children.length - cardsPerPage;
     carousel.style.transform = `translateX(${-1 * (cardWidth * cardsPerPage + cardMargin * (cardsPerPage - 1)) * counter}px)`;
   }
+  setTimeout(() => {
+    carousel.style.transition = "transform 0.4s ease-in-out";
+    counter--;
+    carousel.style.transform = `translateX(${-1 * (cardWidth * cardsPerPage + cardMargin * (cardsPerPage - 1)) * counter}px)`;
+  }, 0);
 });
